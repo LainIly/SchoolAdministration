@@ -1,4 +1,5 @@
 ﻿using SchoolAdministration.Application.Interfaces;
+using SchoolAdministration.Application.Services;
 using SchoolAdministration.Domain.Student.Entities;
 
 namespace SchoolAdministration.ConsoleApp
@@ -40,7 +41,7 @@ namespace SchoolAdministration.ConsoleApp
 
                 if (id < 0)
                 {
-                    Console.WriteLine("Id debe ser mayor a 0.");
+                    Console.WriteLine("Id debe ser mayor a 0d.");
                     continue;
                 }
                 return id;
@@ -81,9 +82,6 @@ namespace SchoolAdministration.ConsoleApp
 
         public static Students GetUpdatedStudentData()
         {
-            Console.Write("Ingrese Id: ");
-            int id = int.Parse(Console.ReadLine()!);
-
             Console.Write("Ingrese Nombre: ");
             string name = Console.ReadLine()!;
 
@@ -99,7 +97,7 @@ namespace SchoolAdministration.ConsoleApp
             Console.Write("Ingrese Promedio: ");
             decimal average = decimal.Parse(Console.ReadLine()!);
 
-            return new Students(id, name, email, age, program, average);
+            return new Students(0, name, email, age, program, average);
         }
     }
 }
