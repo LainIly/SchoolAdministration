@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\consoleapp\\menu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:consoleapp\\menu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\consoleapp\\studentinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:consoleapp\\studentinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\consoleapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:consoleapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\student\\validators\\studentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:domain\\student\\validators\\studentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\student\\interfaces\\istudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:domain\\student\\interfaces\\istudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\validators\\personvalidator\\emailformatvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:domain\\validators\\personvalidator\\emailformatvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\student\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:domain\\student\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\application\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:application\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\application\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:application\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\person\\validators\\personvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:domain\\person\\validators\\personvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,99 +31,59 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\Menu\\MainMenu.cs",
-              "RelativeDocumentMoniker": "ConsoleApp\\Menu\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\Menu\\MainMenu.cs",
-              "RelativeToolTip": "ConsoleApp\\Menu\\MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "StudentInputHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\StudentInputHandler.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\StudentInputHandler.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\StudentInputHandler.cs",
+              "RelativeToolTip": "ConsoleApp\\StudentInputHandler.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAowGkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T03:28:54.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Application\\Services\\StudentService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\StudentService.cs",
-              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Application\\Services\\StudentService.cs",
-              "RelativeToolTip": "Application\\Services\\StudentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T04:12:43.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NotificationService.cs",
-              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Application\\Services\\NotificationService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\NotificationService.cs",
-              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Application\\Services\\NotificationService.cs",
-              "RelativeToolTip": "Application\\Services\\NotificationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T04:26:48.017Z",
+              "WhenOpened": "2025-12-04T03:05:47.019Z",
               "EditorCaption": ""
             }
           ]
         },
         {
           "DockedWidth": 237,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IStudentController.cs",
-              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Student\\Interfaces\\IStudentController.cs",
-              "RelativeDocumentMoniker": "Domain\\Student\\Interfaces\\IStudentController.cs",
-              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Student\\Interfaces\\IStudentController.cs",
-              "RelativeToolTip": "Domain\\Student\\Interfaces\\IStudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T04:31:24.721Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Student\\Entities\\Student.cs",
-              "RelativeDocumentMoniker": "Domain\\Student\\Entities\\Student.cs",
-              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Student\\Entities\\Student.cs",
-              "RelativeToolTip": "Domain\\Student\\Entities\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T05:01:39.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StudentInputHandler.cs",
-              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\StudentInputHandler.cs",
-              "RelativeDocumentMoniker": "ConsoleApp\\StudentInputHandler.cs",
-              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\StudentInputHandler.cs",
-              "RelativeToolTip": "ConsoleApp\\StudentInputHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAABAAAAAAAAAA==",
+              "Title": "StudentValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Student\\Validators\\StudentValidator.cs",
+              "RelativeDocumentMoniker": "Domain\\Student\\Validators\\StudentValidator.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Student\\Validators\\StudentValidator.cs",
+              "RelativeToolTip": "Domain\\Student\\Validators\\StudentValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T04:58:05.846Z",
+              "WhenOpened": "2025-12-04T04:51:43.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "ConsoleApp\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "ConsoleApp\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCsAAAAkAAAAAAAAAA==",
+              "Title": "EmailFormatValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Validators\\PersonValidator\\EmailFormatValidator.cs",
+              "RelativeDocumentMoniker": "Domain\\Validators\\PersonValidator\\EmailFormatValidator.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Validators\\PersonValidator\\EmailFormatValidator.cs",
+              "RelativeToolTip": "Domain\\Validators\\PersonValidator\\EmailFormatValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T03:31:59.797Z",
+              "WhenOpened": "2025-12-04T04:30:33.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersonValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Person\\Validators\\PersonValidator.cs",
+              "RelativeDocumentMoniker": "Domain\\Person\\Validators\\PersonValidator.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Person\\Validators\\PersonValidator.cs",
+              "RelativeToolTip": "Domain\\Person\\Validators\\PersonValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T04:33:33.547Z",
               "EditorCaption": ""
             }
           ]

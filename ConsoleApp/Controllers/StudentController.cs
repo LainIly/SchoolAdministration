@@ -1,7 +1,5 @@
 ﻿using SchoolAdministration.Application.Interfaces;
-using SchoolAdministration.Application.Services;
 using SchoolAdministration.ConsoleApp.Printers.StudentPrinter;
-using SchoolAdministration.Domain.Student.Entities;
 using SchoolAdministration.Domain.Student.Interfaces;
 
 namespace SchoolAdministration.ConsoleApp.Controllers
@@ -11,7 +9,7 @@ namespace SchoolAdministration.ConsoleApp.Controllers
         private readonly IStudentService _studentService;
         private readonly INotificationService _notificationService;
 
-        public StudentController (IStudentService studentService, INotificationService notificationService)
+        public StudentController(IStudentService studentService, INotificationService notificationService)
         {
             _studentService = studentService;
             _notificationService = notificationService;
@@ -19,31 +17,41 @@ namespace SchoolAdministration.ConsoleApp.Controllers
 
         public void CreateStudent()
         {
-            var createStudent = StudentInputHandler.GetData();
-            _studentService.CreateStudent(createStudent);
+            try
+            {
+                var createStudent = StudentInputHandler.GetData();
+                _studentService.CreateStudent(createStudent);
 
-            _notificationService.Success("Estudiante creado correctamente.");
+                _notificationService.Success("Estudiante creado correctamente.");
+            }
+            catch (Exception ex)
+            {
+                _notificationService.Error(ex.Message);
+                // el ciclo continúa, vuelve a pedir datos
+            }
+
         }
 
         public void GetStudentById()
         {
             int id = StudentInputHandler.GetId();
-            
+
             try
             {
                 var student = _studentService.GetById(id);
 
                 _notificationService.Success(" ==== Estudiante encontrado ====");
                 StudentsPrinter.PrintStudent(student);
-            } catch (KeyNotFoundException)
+            }
+            catch (KeyNotFoundException)
             {
                 _notificationService.Error($"No existe un estudiante con ID {id}.");
             }
         }
 
-        public void UpdateStudent ()
+        public void UpdateStudent()
         {
-            int id = StudentInputHandler.GetIdForUpdate();
+            int id = StudentInputHandler.GetId();
             var existing = _studentService.GetById(id);
 
             _notificationService.Warning("Ingrese los nuevos datos:");
@@ -60,7 +68,7 @@ namespace SchoolAdministration.ConsoleApp.Controllers
 
         public void DeleteStudent()
         {
-            int id = StudentInputHandler.GetIdForDelete();
+            int id = StudentInputHandler.GetId();
 
             bool deleted = _studentService.DeleteStudent(id);
 

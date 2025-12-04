@@ -1,11 +1,4 @@
-﻿using SchoolAdministration.Domain.Student.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SchoolAdministration.Domain.Student.Interfaces
+﻿namespace SchoolAdministration.Domain.Student.Interfaces
 {
     public interface IStudentController
     {

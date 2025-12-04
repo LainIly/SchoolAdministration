@@ -1,0 +1,15 @@
+C:\Users\ilyla\source\repos\SchoolAdministration\bin\Debug\net8.0\SchoolAdministration.exe
+C:\Users\ilyla\source\repos\SchoolAdministration\bin\Debug\net8.0\SchoolAdministration.deps.json
+C:\Users\ilyla\source\repos\SchoolAdministration\bin\Debug\net8.0\SchoolAdministration.runtimeconfig.json
+C:\Users\ilyla\source\repos\SchoolAdministration\bin\Debug\net8.0\SchoolAdministration.dll
+C:\Users\ilyla\source\repos\SchoolAdministration\bin\Debug\net8.0\SchoolAdministration.pdb
+C:\Users\ilyla\source\repos\SchoolAdministration\obj\Debug\net8.0\SchoolAdministration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilyla\source\repos\SchoolAdministration\obj\Debug\net8.0\SchoolAdministration.AssemblyInfoInputs.cache
+C:\Users\ilyla\source\repos\SchoolAdministration\obj\Debug\net8.0\SchoolAdministration.AssemblyInfo.cs
+C:\Users\ilyla\source\repos\SchoolAdministration\obj\Debug\net8.0\SchoolAdministration.csproj.CoreCompileInputs.cache
+C:\Users\ilyla\source\repos\SchoolAdministration\obj\Debug\net8.0\SchoolAdministration.sourcelink.json
+C:\Users\ilyla\source\repos\SchoolAdministration\obj\Debug\net8.0\SchoolAdministration.dll
+C:\Users\ilyla\source\repos\SchoolAdministration\obj\Debug\net8.0\refint\SchoolAdministration.dll
+C:\Users\ilyla\source\repos\SchoolAdministration\obj\Debug\net8.0\SchoolAdministration.pdb
+C:\Users\ilyla\source\repos\SchoolAdministration\obj\Debug\net8.0\SchoolAdministration.genruntimeconfig.cache
+C:\Users\ilyla\source\repos\SchoolAdministration\obj\Debug\net8.0\ref\SchoolAdministration.dll
