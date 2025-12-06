@@ -1,4 +1,5 @@
 ﻿using SchoolAdministration.Application.Interfaces;
+using SchoolAdministration.ConsoleApp.InputHandler;
 using SchoolAdministration.ConsoleApp.Printers.StudentPrinter;
 using SchoolAdministration.Domain.Student.Interfaces;
 
@@ -29,7 +30,6 @@ namespace SchoolAdministration.ConsoleApp.Controllers
                 _notificationService.Error(ex.Message);
                 // el ciclo continúa, vuelve a pedir datos
             }
-
         }
 
         public void GetStudentById()

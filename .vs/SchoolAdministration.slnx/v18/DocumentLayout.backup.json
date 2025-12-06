@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\consoleapp\\studentinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:consoleapp\\studentinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\student\\validators\\studentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:domain\\student\\validators\\studentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\consoleapp\\inputhandler\\helper\\consolevalidationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:consoleapp\\inputhandler\\helper\\consolevalidationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\validators\\personvalidator\\emailformatvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\person\\validators\\personvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:domain\\person\\validators\\personvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\consoleapp\\inputhandler\\studentinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:consoleapp\\inputhandler\\studentinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,33 +35,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StudentInputHandler.cs",
-              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\StudentInputHandler.cs",
-              "RelativeDocumentMoniker": "ConsoleApp\\StudentInputHandler.cs",
-              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\StudentInputHandler.cs",
-              "RelativeToolTip": "ConsoleApp\\StudentInputHandler.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAowGMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T03:05:47.019Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 237,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "StudentValidator.cs",
               "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Student\\Validators\\StudentValidator.cs",
               "RelativeDocumentMoniker": "Domain\\Student\\Validators\\StudentValidator.cs",
               "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Student\\Validators\\StudentValidator.cs",
               "RelativeToolTip": "Domain\\Student\\Validators\\StudentValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T04:51:43.862Z",
+              "WhenOpened": "2025-12-05T23:34:30.038Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -70,7 +56,7 @@
               "RelativeToolTip": "Domain\\Validators\\PersonValidator\\EmailFormatValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T04:30:33.548Z",
+              "WhenOpened": "2025-12-05T23:27:25.849Z",
               "EditorCaption": ""
             },
             {
@@ -81,9 +67,41 @@
               "RelativeDocumentMoniker": "Domain\\Person\\Validators\\PersonValidator.cs",
               "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Person\\Validators\\PersonValidator.cs",
               "RelativeToolTip": "Domain\\Person\\Validators\\PersonValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T04:33:33.547Z",
+              "WhenOpened": "2025-12-05T22:53:41.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentInputHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\InputHandler\\StudentInputHandler.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\InputHandler\\StudentInputHandler.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\InputHandler\\StudentInputHandler.cs",
+              "RelativeToolTip": "ConsoleApp\\InputHandler\\StudentInputHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T17:59:31.118Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 237,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsoleValidationHelper.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\InputHandler\\Helper\\ConsoleValidationHelper.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\InputHandler\\Helper\\ConsoleValidationHelper.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\InputHandler\\Helper\\ConsoleValidationHelper.cs",
+              "RelativeToolTip": "ConsoleApp\\InputHandler\\Helper\\ConsoleValidationHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T22:49:11.291Z",
               "EditorCaption": ""
             }
           ]

@@ -1,35 +1,31 @@
-﻿using SchoolAdministration.Domain.Student.Entities;
+﻿using SchoolAdministration.Domain.Person.Interfaces;
+using SchoolAdministration.Domain.Person.Validators;
+using SchoolAdministration.Domain.Student.Entities;
 using SchoolAdministration.Domain.Validators.PersonValidator;
-using System.Globalization;
-using System.Xml.Linq;
 
-namespace SchoolAdministration.ConsoleApp
+namespace SchoolAdministration.ConsoleApp.InputHandler
 {
     public class StudentInputHandler
     {
-        public static int GetId()
+        public static int GetId(IPersonValidator personValidator)
         {
-            int id;
             while (true)
             {
+                Console.Write("Ingresa el Id a buscar: ");
+                int id = int.Parse(Console.ReadLine()!);
                 try
                 {
-                    Console.Write("Ingresa el Id a buscar: ");
-                    id = int.Parse(Console.ReadLine()!);
+                    personValidator.ValidateIdFormat(id);
+                    return id;
                 } catch (FormatException)
                 {
                     Console.WriteLine("Id invalida. Id debe ser un numero entero.");
                     continue;
                 }
 
-                if (id < 0)
-                {
-                    Console.WriteLine("Id debe ser mayor a 0.");
-                    continue;
-                }
-                return id;
+
             }
-        } //Buscar.
+        } //Buscar. //Terminado
         public static Students GetData()
         {
             //Validar datos en la capa de presentacion.
@@ -38,7 +34,7 @@ namespace SchoolAdministration.ConsoleApp
             {
                 try
                 {
-                    Console.Write("Ingresa el Id a buscar: ");
+                    Console.Write("Id: ");
                     id = int.Parse(Console.ReadLine()!);
                 }
                 catch (FormatException)
@@ -166,7 +162,7 @@ namespace SchoolAdministration.ConsoleApp
             var student = new Students(id, name, email, age, program, average);
 
             return student;
-        } //Crear.
+        } //Crear. //Terminado. Validaciones solo para la capa UI.
         public static Students GetUpdatedStudentData()
         {
             Console.Write("Ingrese Nombre: ");
