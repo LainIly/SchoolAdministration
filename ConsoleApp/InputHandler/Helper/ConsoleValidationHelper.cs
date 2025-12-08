@@ -17,7 +17,7 @@ namespace SchoolAdministration.ConsoleApp.InputHandler.Helper
         {
             while (true)
             {
-                Console.Write("Id: ");
+                Console.Write("Ingrese el Id: ");
                 string? input = Console.ReadLine();
 
                 if (!int.TryParse(input, out int id))
@@ -31,13 +31,13 @@ namespace SchoolAdministration.ConsoleApp.InputHandler.Helper
                     personValidator.ValidateIdFormat(id); //Llama al validator del dominio (Reutilizar codigo.)
                     return id;
                 }
-                catch (ArgumentOutOfRangeException) //Captura el error del validator.
+                catch (ArgumentOutOfRangeException ex) //Captura el error del validator.
                 {
-                    _notificationService.Error("Id invalida.");
+                    _notificationService.Error(ex.Message);
                     continue;
                 }
             }
-        } //Bien
+        }
         public string ValidateName(IPersonValidator personValidator)
         {
             while (true)
@@ -50,9 +50,9 @@ namespace SchoolAdministration.ConsoleApp.InputHandler.Helper
                     personValidator.ValidateNameFormat(name);
                     return name;
                 }
-                catch (ArgumentException)
+                catch (ArgumentException ex)
                 {
-                    _notificationService.Error($"Nombre invalido: {name}");
+                    _notificationService.Error(ex.Message);
                     continue;
                 }
             }
@@ -69,9 +69,9 @@ namespace SchoolAdministration.ConsoleApp.InputHandler.Helper
                     personValidator.ValidateEmailFormat(email);
                     return email;
                 }
-                catch (ArgumentNullException)
+                catch (FormatException ex)
                 {
-                    _notificationService.Error($"Invalid email: {email}");
+                    _notificationService.Error(ex.Message);
                     continue;
                 }
             }
@@ -87,9 +87,9 @@ namespace SchoolAdministration.ConsoleApp.InputHandler.Helper
                     personValidator.ValidateAgeFormat(age);
                     return age;
                 }
-                catch (ArgumentOutOfRangeException)
+                catch (ArgumentOutOfRangeException ex)
                 {
-                    _notificationService.Error("Edad fuera del rango permitido (5-25).");
+                    _notificationService.Error(ex.Message);
                     continue;
                 }
             }
@@ -106,9 +106,9 @@ namespace SchoolAdministration.ConsoleApp.InputHandler.Helper
                     studentValidator.ValidateProgramFormat(program);
                     return program;
                 }
-                catch (ArgumentException)
+                catch (ArgumentException ex)
                 {
-                    _notificationService.Error($"Programa invalido: {program}");
+                    _notificationService.Error(ex.Message);
                     continue;
                 }
             }
@@ -125,9 +125,9 @@ namespace SchoolAdministration.ConsoleApp.InputHandler.Helper
                     studentValidator.ValidateAverageFormat(average);
                     return average;
                 }
-                catch (ArgumentOutOfRangeException)
+                catch (ArgumentOutOfRangeException ex)
                 {
-                    _notificationService.Error("Promedio invalido.");
+                    _notificationService.Error(ex.Message);
                     continue;
                 }
             }

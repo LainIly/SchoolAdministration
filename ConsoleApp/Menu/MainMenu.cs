@@ -1,6 +1,8 @@
 ﻿using SchoolAdministration.Application.Interfaces;
 using SchoolAdministration.Application.Services;
 using SchoolAdministration.ConsoleApp.Controllers;
+using SchoolAdministration.ConsoleApp.InputHandler;
+using SchoolAdministration.ConsoleApp.InputHandler.Helper;
 using SchoolAdministration.ConsoleApp.Menu.StudentsMenu;
 using SchoolAdministration.Domain.Infrastructure.Interfaces;
 using SchoolAdministration.Domain.Infrastructure.Repositories;
@@ -20,10 +22,12 @@ namespace SchoolAdministration.ConsoleApp.Menu
             IStudentRepository repo = new StudentRepository();
             IPersonValidator pvalidator = new PersonValidator();
             INotificationService notificationService = new NotificationService();
+            ConsoleValidationHelper consoleValidationHelper = new ConsoleValidationHelper(notificationService);
 
             IStudentValidator validator = new StudentValidator(pvalidator);
+            StudentInputHandler studentInputHandler = new StudentInputHandler(consoleValidationHelper, pvalidator, validator);
             IStudentService service = new StudentService(repo, validator);
-            IStudentController controller = new StudentController(service, notificationService);
+            IStudentController controller = new StudentController(service, notificationService, studentInputHandler);
 
             // Crear menú
             var studentMenu = new StudentMenu(controller);

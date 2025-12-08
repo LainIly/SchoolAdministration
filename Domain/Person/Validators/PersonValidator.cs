@@ -9,7 +9,7 @@ namespace SchoolAdministration.Domain.Person.Validators
         public void ValidateIdFormat(int id)
         {
             if (id <= 0)
-                throw new ArgumentOutOfRangeException("Id debe ser mayor a 0.", nameof(id)); 
+                throw new ArgumentOutOfRangeException("Id debe ser mayor a 0.", nameof(id));
         }
 
         public void ValidateNameFormat(string name)
@@ -39,7 +39,6 @@ namespace SchoolAdministration.Domain.Person.Validators
 
         public void ValidatePerson(People people)
         {
-            ValidateIdFormat(people.Id);
             ValidateNameFormat(people.Name);
             ValidateEmailFormat(people.Email);
             ValidateAgeFormat(people.Age);

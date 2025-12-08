@@ -1,6 +1,5 @@
 ﻿using SchoolAdministration.Application.Interfaces;
 using SchoolAdministration.Domain.Infrastructure.Interfaces;
-using SchoolAdministration.Domain.Infrastructure.Repositories;
 using SchoolAdministration.Domain.Student.Entities;
 using SchoolAdministration.Domain.Student.Interfaces;
 
@@ -19,15 +18,12 @@ namespace SchoolAdministration.Application.Services
 
         public void CreateStudent(Students student)
         {
-            if (student is null)
-                throw new ArgumentNullException(nameof(student));
-
             //validar reglas antes de crear el estudiante.
             _studentValidator.ValidateStudent(student);
-
             //Repositorio
             _studentRepository.Add(student);
         }
+
         public void UpdateStudent (Students student)
         {
             _studentValidator.ValidateStudent(student);

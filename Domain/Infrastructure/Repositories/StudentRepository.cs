@@ -10,19 +10,39 @@ namespace SchoolAdministration.Domain.Infrastructure.Repositories
         public IReadOnlyList<Students> Students => _students.AsReadOnly(); //Copia de lista, solo lectura.
 
         //Metodos de Manejo de Datos (CRUD)
-        public void Add (Students student) => _students.Add(student);
-        public Students? GetById(int id) => _students.FirstOrDefault(s => s.Id == id);
+        public void Add (Students student)
+        {
+            int newId = _students.Count == 0 ? 1 : _students.Max(s => s.Id) + 1;
+
+            student.SetId(newId);
+
+            _students.Add(student);
+        }
+
+        public Students GetById(int id)
+        {
+            var student = _students.FirstOrDefault(s => s.Id == id);
+            if (student == null)
+                throw new KeyNotFoundException();
+            return student;
+        }
 
         public IReadOnlyList<Students> GetAll() => _students.AsReadOnly();
 
-        public void Update(Students student)
+        public void Update(Students updated)
         {
-            var index = _students.FindIndex(s => s.Id == student.Id); //Recibos el estudiante
+            var existing = GetById(updated.Id);
 
-            if (index == -1) //Si no lo encontramos.
-                throw new KeyNotFoundException($"No existe un estudiante con Id {student.Id}.");
-
-            _students[index] = student; //Actualizamos.
+            if (existing == null)
+                throw new KeyNotFoundException($"No existe un estudiante con Id {updated.Id}.");
+            
+            existing.Update(
+                updated.Name,
+                updated.Email,
+                updated.Age,
+                updated.Program,
+                updated.Average
+            );
         }
 
         public bool Delete (int id)

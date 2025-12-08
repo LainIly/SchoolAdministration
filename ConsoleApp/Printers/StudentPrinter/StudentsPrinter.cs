@@ -1,10 +1,4 @@
-﻿using SchoolAdministration.Domain.Person.Entities;
-using SchoolAdministration.Domain.Student.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using SchoolAdministration.Domain.Student.Entities;
 
 namespace SchoolAdministration.ConsoleApp.Printers.StudentPrinter
 {
