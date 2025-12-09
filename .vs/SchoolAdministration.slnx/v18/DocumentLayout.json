@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\consoleapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:consoleapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\teacher\\validators\\teachervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:domain\\teacher\\validators\\teachervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\infrastructure\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:domain\\infrastructure\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\student\\validators\\studentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:domain\\student\\validators\\studentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\person\\validators\\personvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:domain\\person\\validators\\personvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\student\\interfaces\\istudentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:domain\\student\\interfaces\\istudentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\application\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:application\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\infrastructure\\repositories\\teachers\\teacherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:domain\\infrastructure\\repositories\\teachers\\teacherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\infrastructure\\interfaces\\teachers\\iteachersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:domain\\infrastructure\\interfaces\\teachers\\iteachersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\teacher\\interfaces\\iteachervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:domain\\teacher\\interfaces\\iteachervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\teacher\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:domain\\teacher\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\application\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:application\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\student\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:domain\\student\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,51 +54,156 @@
       "DocumentGroups": [
         {
           "DockedWidth": 237,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "ConsoleApp\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "ConsoleApp\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Teacher\\Entities\\Teacher.cs",
+              "RelativeDocumentMoniker": "Domain\\Teacher\\Entities\\Teacher.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Teacher\\Entities\\Teacher.cs",
+              "RelativeToolTip": "Domain\\Teacher\\Entities\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T05:23:16.686Z",
+              "WhenOpened": "2025-12-08T17:46:33.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TeacherRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Infrastructure\\Repositories\\Teachers\\TeacherRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Infrastructure\\Repositories\\Teachers\\TeacherRepository.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Infrastructure\\Repositories\\Teachers\\TeacherRepository.cs",
+              "RelativeToolTip": "Domain\\Infrastructure\\Repositories\\Teachers\\TeacherRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T18:13:14.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITeachersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Infrastructure\\Interfaces\\Teachers\\ITeachersRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Infrastructure\\Interfaces\\Teachers\\ITeachersRepository.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Infrastructure\\Interfaces\\Teachers\\ITeachersRepository.cs",
+              "RelativeToolTip": "Domain\\Infrastructure\\Interfaces\\Teachers\\ITeachersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:51:34.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TeacherValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Teacher\\Validators\\TeacherValidator.cs",
+              "RelativeDocumentMoniker": "Domain\\Teacher\\Validators\\TeacherValidator.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Teacher\\Validators\\TeacherValidator.cs",
+              "RelativeToolTip": "Domain\\Teacher\\Validators\\TeacherValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:31:43.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITeacherValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Teacher\\Interfaces\\ITeacherValidator.cs",
+              "RelativeDocumentMoniker": "Domain\\Teacher\\Interfaces\\ITeacherValidator.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Teacher\\Interfaces\\ITeacherValidator.cs",
+              "RelativeToolTip": "Domain\\Teacher\\Interfaces\\ITeacherValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:31:28.415Z",
               "EditorCaption": ""
             }
           ]
         },
         {
           "DockedWidth": 237,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Student\\Validators\\StudentValidator.cs",
+              "RelativeDocumentMoniker": "Domain\\Student\\Validators\\StudentValidator.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Student\\Validators\\StudentValidator.cs",
+              "RelativeToolTip": "Domain\\Student\\Validators\\StudentValidator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T18:05:53.714Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "PersonValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Person\\Validators\\PersonValidator.cs",
+              "RelativeDocumentMoniker": "Domain\\Person\\Validators\\PersonValidator.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Person\\Validators\\PersonValidator.cs",
+              "RelativeToolTip": "Domain\\Person\\Validators\\PersonValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:58:37.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IStudentValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Student\\Interfaces\\IStudentValidator.cs",
+              "RelativeDocumentMoniker": "Domain\\Student\\Interfaces\\IStudentValidator.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Student\\Interfaces\\IStudentValidator.cs",
+              "RelativeToolTip": "Domain\\Student\\Interfaces\\IStudentValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T18:06:02.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "StudentService.cs",
               "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Application\\Services\\StudentService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\StudentService.cs",
               "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Application\\Services\\StudentService.cs",
               "RelativeToolTip": "Application\\Services\\StudentService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T06:22:35.35Z",
+              "WhenOpened": "2025-12-08T18:04:56.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Infrastructure\\Repositories\\StudentRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Infrastructure\\Repositories\\StudentRepository.cs",
-              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Infrastructure\\Repositories\\StudentRepository.cs",
-              "RelativeToolTip": "Domain\\Infrastructure\\Repositories\\StudentRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wCQAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Application\\Interfaces\\IStudentService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Application\\Interfaces\\IStudentService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T05:48:52.364Z",
+              "WhenOpened": "2025-12-08T18:04:38.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Student\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "Domain\\Student\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Student\\Entities\\Student.cs",
+              "RelativeToolTip": "Domain\\Student\\Entities\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:47:31.654Z",
               "EditorCaption": ""
             }
           ]

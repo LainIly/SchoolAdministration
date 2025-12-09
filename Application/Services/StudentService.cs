@@ -1,5 +1,5 @@
 ﻿using SchoolAdministration.Application.Interfaces;
-using SchoolAdministration.Domain.Infrastructure.Interfaces;
+using SchoolAdministration.Domain.Infrastructure.Interfaces.Students;
 using SchoolAdministration.Domain.Student.Entities;
 using SchoolAdministration.Domain.Student.Interfaces;
 

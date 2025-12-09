@@ -1,16 +1,16 @@
-﻿using SchoolAdministration.Domain.Infrastructure.Interfaces;
-using SchoolAdministration.Domain.Student.Entities;
+﻿using SchoolAdministration.Domain.Infrastructure.Interfaces.Students;
+using SE = SchoolAdministration.Domain.Student.Entities;
 
-namespace SchoolAdministration.Domain.Infrastructure.Repositories
+namespace SchoolAdministration.Domain.Infrastructure.Repositories.Students
 {
     public class StudentRepository : IStudentRepository
     {
         //Lista, [] es lo mismo que = new List<Student>();
-        private readonly List<Students> _students = [];
-        public IReadOnlyList<Students> Students => _students.AsReadOnly(); //Copia de lista, solo lectura.
+        private readonly List<SE.Students> _students = [];
+        public IReadOnlyList<SE.Students> Students => _students.AsReadOnly(); //Copia de lista, solo lectura.
 
         //Metodos de Manejo de Datos (CRUD)
-        public void Add (Students student)
+        public void Add(SE.Students student)
         {
             int newId = _students.Count == 0 ? 1 : _students.Max(s => s.Id) + 1;
 
@@ -19,7 +19,7 @@ namespace SchoolAdministration.Domain.Infrastructure.Repositories
             _students.Add(student);
         }
 
-        public Students GetById(int id)
+        public SE.Students GetById(int id)
         {
             var student = _students.FirstOrDefault(s => s.Id == id);
             if (student == null)
@@ -27,15 +27,15 @@ namespace SchoolAdministration.Domain.Infrastructure.Repositories
             return student;
         }
 
-        public IReadOnlyList<Students> GetAll() => _students.AsReadOnly();
+        public IReadOnlyList<SE.Students> GetAll() => _students.AsReadOnly();
 
-        public void Update(Students updated)
+        public void Update(SE.Students updated)
         {
             var existing = GetById(updated.Id);
 
             if (existing == null)
                 throw new KeyNotFoundException($"No existe un estudiante con Id {updated.Id}.");
-            
+
             existing.Update(
                 updated.Name,
                 updated.Email,
@@ -45,7 +45,7 @@ namespace SchoolAdministration.Domain.Infrastructure.Repositories
             );
         }
 
-        public bool Delete (int id)
+        public bool Delete(int id)
         {
             var student = _students.FirstOrDefault(s => s.Id == id); //Trae el estudiante solicitado.
 
