@@ -3,7 +3,7 @@ using SchoolAdministration.Domain.Person.Interfaces;
 using SchoolAdministration.Domain.Student.Entities;
 using SchoolAdministration.Domain.Student.Interfaces;
 
-namespace SchoolAdministration.ConsoleApp.InputHandler
+namespace SchoolAdministration.ConsoleApp.InputHandler.StudentInput
 {
     public class StudentInputHandler
     {

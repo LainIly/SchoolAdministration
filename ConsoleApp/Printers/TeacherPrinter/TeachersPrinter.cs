@@ -10,8 +10,8 @@ namespace SchoolAdministration.ConsoleApp.Printers.TeacherPrinter
             Console.WriteLine($"Nombre: {t.Name}");
             Console.WriteLine($"Correo: {t.Email}");
             Console.WriteLine($"Edad: {t.Age}");
-            Console.WriteLine($"Programa: {t.Degree}");
-            Console.WriteLine($"Promedio: {t.YearsE}");
+            Console.WriteLine($"Especialidad: {t.Degree}");
+            Console.WriteLine($"An/os de experiencia: {t.YearsE}");
             Console.WriteLine("----------------------------------");
         }
     }

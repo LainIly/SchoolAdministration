@@ -41,7 +41,6 @@ namespace SchoolAdministration.Domain.Person.Validators
         {
             ValidateNameFormat(people.Name);
             ValidateEmailFormat(people.Email);
-            ValidateAgeFormat(people.Age);
         }
     }
 }

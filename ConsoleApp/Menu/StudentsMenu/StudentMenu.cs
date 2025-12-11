@@ -54,7 +54,6 @@ namespace SchoolAdministration.ConsoleApp.Menu.StudentsMenu
                         break;
                 }
             } while (option != 6);
-                
         }
     }
 }

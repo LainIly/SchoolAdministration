@@ -6,7 +6,7 @@ namespace SchoolAdministration.Domain.Infrastructure.Repositories.Teachers
     public class TeacherRepository : ITeachersRepository
     {
         private readonly List<TE.Teacher> _teacher = [];
-        public IReadOnlyList<TE.Teacher> teachers => _teacher.AsReadOnly();
+        public IReadOnlyList<TE.Teacher> Teacher => _teacher.AsReadOnly();
 
         //Metodos del repositorio.
 
@@ -31,6 +31,7 @@ namespace SchoolAdministration.Domain.Infrastructure.Repositories.Teachers
         public void Update(TE.Teacher teacher)
         {
             var existing = GetById(teacher.Id);
+
             if (existing == null)
                 throw new KeyNotFoundException($"No existe un profesor con Id {teacher.Id}");
 

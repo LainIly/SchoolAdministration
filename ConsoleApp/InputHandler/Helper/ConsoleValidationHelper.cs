@@ -1,6 +1,7 @@
 ﻿using SchoolAdministration.Application.Interfaces;
 using SchoolAdministration.Domain.Person.Interfaces;
 using SchoolAdministration.Domain.Student.Interfaces;
+using SchoolAdministration.Domain.Teacher.Interfaces;
 
 namespace SchoolAdministration.ConsoleApp.InputHandler.Helper
 {
@@ -124,6 +125,60 @@ namespace SchoolAdministration.ConsoleApp.InputHandler.Helper
                     decimal average = decimal.Parse(Console.ReadLine()!);
                     studentValidator.ValidateAverageFormat(average);
                     return average;
+                }
+                catch (ArgumentOutOfRangeException ex)
+                {
+                    _notificationService.Error(ex.Message);
+                    continue;
+                }
+            }
+        }
+        public string ValidateDegree (ITeacherValidator teacherValidator)
+        {
+            while (true)
+            {
+                Console.Write("Titulo: ");
+                string? degree = Console.ReadLine()!;
+
+                try
+                {
+                    teacherValidator.ValidateDegreeFormat(degree);
+                    return degree;
+                } catch (ArgumentException ex)
+                {
+                    _notificationService.Error(ex.Message);
+                    continue;
+                }
+            }
+        }
+        public int ValidateYearsE (ITeacherValidator teacherValidator)
+        {
+            while (true)
+            {
+                Console.Write("An/os de experiencia: ");
+                
+                try
+                {
+                    int yearsE = int.Parse(Console.ReadLine()!);
+                    teacherValidator.ValidateYearsEFormat(yearsE);
+                    return yearsE;
+                } catch (ArgumentOutOfRangeException ex)
+                {
+                    _notificationService.Error(ex.Message);
+                    continue;
+                }
+            }
+        }
+        public int ValidateTeacherAge(ITeacherValidator teacherValidator)
+        {
+            while (true)
+            {
+                Console.Write("Edad: ");
+                try
+                {
+                    int age = int.Parse(Console.ReadLine()!);
+                    teacherValidator.ValidateTeacherAge(age);
+                    return age;
                 }
                 catch (ArgumentOutOfRangeException ex)
                 {

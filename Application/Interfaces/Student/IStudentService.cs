@@ -1,6 +1,6 @@
 ﻿using SchoolAdministration.Domain.Student.Entities;
 
-namespace SchoolAdministration.Application.Interfaces
+namespace SchoolAdministration.Application.Interfaces.Student
 {
     public interface IStudentService
     {

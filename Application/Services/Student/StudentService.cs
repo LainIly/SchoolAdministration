@@ -1,9 +1,9 @@
-﻿using SchoolAdministration.Application.Interfaces;
+﻿using SchoolAdministration.Application.Interfaces.Student;
 using SchoolAdministration.Domain.Infrastructure.Interfaces.Students;
 using SchoolAdministration.Domain.Student.Entities;
 using SchoolAdministration.Domain.Student.Interfaces;
 
-namespace SchoolAdministration.Application.Services
+namespace SchoolAdministration.Application.Services.Student
 {
     public class StudentService : IStudentService
     {
