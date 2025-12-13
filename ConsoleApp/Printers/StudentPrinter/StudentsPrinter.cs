@@ -6,6 +6,7 @@ namespace SchoolAdministration.ConsoleApp.Printers.StudentPrinter
     {
         public static void PrintStudent(Students s)
         {
+            Console.WriteLine("----------------------------------");
             Console.WriteLine($"Id: {s.Id}");
             Console.WriteLine($"Nombre: {s.Name}");
             Console.WriteLine($"Correo: {s.Email}");

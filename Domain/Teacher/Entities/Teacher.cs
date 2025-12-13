@@ -7,7 +7,6 @@ namespace SchoolAdministration.Domain.Teacher.Entities
         public string Degree { get; set; } = "";
         public int YearsE { get; set; }
 
-
         public Teacher (string cName, string cEmail, int cAge, string cDegree, int cYearsE)
         {
             Name = cName;

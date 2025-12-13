@@ -2,7 +2,6 @@
 using SchoolAdministration.Application.Interfaces.Student;
 using SchoolAdministration.ConsoleApp.InputHandler.StudentInput;
 using SchoolAdministration.ConsoleApp.Printers.StudentPrinter;
-using SchoolAdministration.Domain.Student.Entities;
 using SchoolAdministration.Domain.Student.Interfaces;
 
 namespace SchoolAdministration.ConsoleApp.Controllers.Student
@@ -50,7 +49,7 @@ namespace SchoolAdministration.ConsoleApp.Controllers.Student
             }
             catch (KeyNotFoundException)
             {
-                _notificationService.Error($"No existe un estudiante con ID {id}.");
+                _notificationService.Error($"No existe un estudiante con Id {id}.");
             }
         }
 

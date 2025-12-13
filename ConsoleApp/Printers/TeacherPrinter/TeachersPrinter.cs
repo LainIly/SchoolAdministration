@@ -6,6 +6,7 @@ namespace SchoolAdministration.ConsoleApp.Printers.TeacherPrinter
     {
         public static void PrintTeacher(Teacher t)
         {
+            Console.WriteLine("----------------------------------");
             Console.WriteLine($"Id: {t.Id}");
             Console.WriteLine($"Nombre: {t.Name}");
             Console.WriteLine($"Correo: {t.Email}");

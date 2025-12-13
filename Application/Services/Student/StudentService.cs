@@ -35,7 +35,7 @@ namespace SchoolAdministration.Application.Services.Student
             var student = _studentRepository.GetById(id);
 
             if (student is null)
-                throw new KeyNotFoundException($"No existe un estudiane con Id {id}");
+                throw new KeyNotFoundException($"No existe un estudiante con Id {id}");
 
             return student;
         }

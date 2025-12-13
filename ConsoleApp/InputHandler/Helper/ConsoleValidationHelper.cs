@@ -1,4 +1,5 @@
 ﻿using SchoolAdministration.Application.Interfaces;
+using SchoolAdministration.Domain.Course.Interfaces;
 using SchoolAdministration.Domain.Person.Interfaces;
 using SchoolAdministration.Domain.Student.Interfaces;
 using SchoolAdministration.Domain.Teacher.Interfaces;
@@ -14,6 +15,7 @@ namespace SchoolAdministration.ConsoleApp.InputHandler.Helper
             _notificationService = notificationService;
         }
 
+        //Validaciones Consola Estudiantes
         public int ValidateId(IPersonValidator personValidator)
         {
             while (true)
@@ -133,6 +135,8 @@ namespace SchoolAdministration.ConsoleApp.InputHandler.Helper
                 }
             }
         }
+
+        //Validaciones Consola Profesores
         public string ValidateDegree (ITeacherValidator teacherValidator)
         {
             while (true)
@@ -181,6 +185,61 @@ namespace SchoolAdministration.ConsoleApp.InputHandler.Helper
                     return age;
                 }
                 catch (ArgumentOutOfRangeException ex)
+                {
+                    _notificationService.Error(ex.Message);
+                    continue;
+                }
+            }
+        }
+
+        //Validaciones Consola Cursos
+        public int ValidateCourseId(ICourseValidator courseValidator)
+        {
+            while (true)
+            {
+                Console.Write("Id: ");
+                try
+                {
+                    int id = int.Parse(Console.ReadLine()!);
+                    courseValidator.ValidateCouseIdFormat(id);
+                    return id;
+                } catch (ArgumentException ex)
+                {
+                    _notificationService.Error(ex.Message);
+                    continue;
+                }
+            }
+        }
+        public string ValidateCourseName(ICourseValidator courseValidator)
+        {
+            while (true)
+            {
+                Console.Write("Nombre del curso: ");
+
+                try
+                {
+                    string? name = Console.ReadLine()!;
+                    courseValidator.ValidateNameFormat(name);
+                    return name;
+                } catch (ArgumentException ex)
+                {
+                    _notificationService.Error(ex.Message);
+                    continue;
+                }
+            }
+        }
+        public int ValidaMaxCourse(ICourseValidator courseValidator)
+        {
+            while (true)
+            {
+                Console.Write("Cupo: ");
+
+                try
+                {
+                    int max = int.Parse(Console.ReadLine()!);
+                    courseValidator.ValidateMaxFormat(max);
+                    return max;
+                } catch (ArgumentOutOfRangeException ex)
                 {
                     _notificationService.Error(ex.Message);
                     continue;

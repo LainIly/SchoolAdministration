@@ -1,6 +1,4 @@
-﻿using SchoolAdministration.Application.Interfaces;
-using SchoolAdministration.Domain.Student.Entities;
-using SchoolAdministration.Domain.Student.Interfaces;
+﻿using SchoolAdministration.Domain.Student.Interfaces;
 
 namespace SchoolAdministration.ConsoleApp.Menu.StudentsMenu
 {
