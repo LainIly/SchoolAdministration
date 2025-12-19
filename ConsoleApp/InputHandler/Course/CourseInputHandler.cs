@@ -1,6 +1,7 @@
 ﻿using SchoolAdministration.ConsoleApp.InputHandler.Helper;
 using CE = SchoolAdministration.Domain.Course.Entities;
 using SchoolAdministration.Domain.Course.Interfaces;
+using SchoolAdministration.Domain.Person.Interfaces;
 
 namespace SchoolAdministration.ConsoleApp.InputHandler.Course
 {
@@ -8,11 +9,13 @@ namespace SchoolAdministration.ConsoleApp.InputHandler.Course
     {
         private readonly ConsoleValidationHelper _consoleValidationHelper;
         private readonly ICourseValidator _courseValidator;
+        private readonly IPersonValidator _personValidator;
 
-        public CourseInputHandler (ConsoleValidationHelper consoleValidationHelper, ICourseValidator courseValidator)
+        public CourseInputHandler (ConsoleValidationHelper consoleValidationHelper, ICourseValidator courseValidator, IPersonValidator personValidator)
         {
             _consoleValidationHelper = consoleValidationHelper;
             _courseValidator = courseValidator;
+            _personValidator = personValidator;
         }
 
         public int InputId()
@@ -24,7 +27,8 @@ namespace SchoolAdministration.ConsoleApp.InputHandler.Course
         {
             return new CE.Course(
                 _consoleValidationHelper.ValidateCourseName(_courseValidator),
-                _consoleValidationHelper.ValidaMaxCourse(_courseValidator)
+                _consoleValidationHelper.ValidaMaxCourse(_courseValidator),
+                _consoleValidationHelper.ValidateTeacherId(_personValidator)
             );
         }
 
@@ -32,7 +36,8 @@ namespace SchoolAdministration.ConsoleApp.InputHandler.Course
         {
             return new CE.Course(
                 _consoleValidationHelper.ValidateCourseName(_courseValidator),
-                _consoleValidationHelper.ValidaMaxCourse(_courseValidator)
+                _consoleValidationHelper.ValidaMaxCourse(_courseValidator),
+                _consoleValidationHelper.ValidateTeacherId(_personValidator)
             );
         }
     }

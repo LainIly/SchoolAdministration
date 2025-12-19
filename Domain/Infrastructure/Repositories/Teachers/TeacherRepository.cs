@@ -28,6 +28,11 @@ namespace SchoolAdministration.Domain.Infrastructure.Repositories.Teachers
 
         public IReadOnlyList<TE.Teacher> GetAll() => _teacher.AsReadOnly();
 
+        public bool Exists(int id)
+        {
+            return _teacher.Any(t => t.Id == id);
+        }
+
         public void Update(TE.Teacher teacher)
         {
             var existing = GetById(teacher.Id);

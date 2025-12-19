@@ -22,6 +22,12 @@ namespace SchoolAdministration.Domain.Course.Validators
             if (max < 0 || max > 35) 
                 throw new ArgumentOutOfRangeException("El cupo debe ser mayor a 0 y menor a 35.", nameof(max));
         }
+        
+        public void ValidateTeacherIdFormat(int teacherId)
+        {
+            if (teacherId <= 0)
+                throw new ArgumentOutOfRangeException(nameof(teacherId));
+        }
 
         public void ValidateCourse(CE.Course course)
         {

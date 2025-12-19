@@ -34,7 +34,8 @@ namespace SchoolAdministration.Domain.Infrastructure.Repositories.Courses
 
             existing.Update (
                 course.Name,
-                course.Max
+                course.Max,
+                course.TeacherId
             );
         }
 

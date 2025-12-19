@@ -1,6 +1,7 @@
 ﻿using SchoolAdministration.Application.Interfaces.Course;
 using SchoolAdministration.Domain.Course.Interfaces;
 using SchoolAdministration.Domain.Infrastructure.Interfaces.Courses;
+using SchoolAdministration.Domain.Infrastructure.Interfaces.Teachers;
 using CE = SchoolAdministration.Domain.Course.Entities;
 
 namespace SchoolAdministration.Application.Services.Course
@@ -9,15 +10,20 @@ namespace SchoolAdministration.Application.Services.Course
     {
         private readonly ICourseRepository _courseRepository;
         private readonly ICourseValidator _courseValidator;
+        private readonly ITeachersRepository _teachersRepository;
 
-        public CourseService (ICourseRepository courseRepository, ICourseValidator courseValidator)
+        public CourseService (ICourseRepository courseRepository, ICourseValidator courseValidator, ITeachersRepository teachersRepository)
         {
             _courseRepository = courseRepository;
             _courseValidator = courseValidator;
+            _teachersRepository = teachersRepository;
         }
 
         public void CreateCourse(CE.Course course)
         {
+            if (!_teachersRepository.Exists(course.TeacherId))
+                throw new KeyNotFoundException($"El profesor con Id {course.TeacherId} no existe.");
+
             _courseValidator.ValidateCourse(course);
             _courseRepository.Add(course);
         }

@@ -1,27 +1,26 @@
 ﻿using SchoolAdministration.Application.Interfaces;
 using SchoolAdministration.Application.Interfaces.Course;
+using SchoolAdministration.Application.Interfaces.Teacher;
 using SchoolAdministration.ConsoleApp.InputHandler.Course;
 using SchoolAdministration.ConsoleApp.Printers.CoursePrinter;
+using SchoolAdministration.ConsoleApp.Printers.TeacherPrinter;
 using SchoolAdministration.Domain.Course.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SchoolAdministration.ConsoleApp.Controllers.Course
 {
     public class CourseController : ICourseController
     {
         private readonly ICourseService _courseService;
+        private readonly ITeacherService _teacherService;
         private readonly INotificationService _notificationService;
         private readonly CourseInputHandler _courseInputHandler;
 
-        public CourseController(ICourseService courseService, INotificationService notificationService, CourseInputHandler courseInputHandler)
+        public CourseController(ICourseService courseService, INotificationService notificationService, CourseInputHandler courseInputHandler, ITeacherService teacherService)
         {
             _courseService = courseService;
             _notificationService = notificationService;
             _courseInputHandler = courseInputHandler;
+            _teacherService = teacherService;
         }
 
         public void CreateCourse()
@@ -30,9 +29,11 @@ namespace SchoolAdministration.ConsoleApp.Controllers.Course
             {
                 var createCourse = _courseInputHandler.InputRegister();
                 _courseService.CreateCourse(createCourse);
+                var teacher = _teacherService.GetById(createCourse.TeacherId);
 
                 _notificationService.Success("Curso creado correctamente.");
-                CoursesPrinter.PrintCourse(createCourse);
+                CoursesPrinter.PrintCourse(createCourse, teacher);
+                //TeachersPrinter.PrintTeacher(teacher);
             }
             catch (Exception ex)
             {
@@ -47,8 +48,9 @@ namespace SchoolAdministration.ConsoleApp.Controllers.Course
             try
             {
                 var course = _courseService.GetById(id);
+                var teacher = _teacherService.GetById(course.TeacherId);
                 _notificationService.Success("==== Curso encontrado ====");
-                CoursesPrinter.PrintCourse(course);
+                CoursesPrinter.PrintCourse(course, teacher);
             }
             catch (KeyNotFoundException)
             {
@@ -111,7 +113,7 @@ namespace SchoolAdministration.ConsoleApp.Controllers.Course
 
             foreach (var c in courses)
             {
-                CoursesPrinter.PrintCourse(c);
+                //CoursesPrinter.PrintCourse(c);
             }
         }
     }

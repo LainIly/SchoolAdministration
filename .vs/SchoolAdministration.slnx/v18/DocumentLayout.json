@@ -1,12 +1,111 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\consoleapp\\printers\\courseprinter\\coursesprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:consoleapp\\printers\\courseprinter\\coursesprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\consoleapp\\controllers\\course\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:consoleapp\\controllers\\course\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\application\\services\\course\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:application\\services\\course\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\main\\appbootstrapper\\coursesmodule\\coursesmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:main\\appbootstrapper\\coursesmodule\\coursesmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|c:\\users\\ilyla\\source\\repos\\schooladministration\\domain\\course\\validators\\coursevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57FA855-45EB-1E91-A30C-3F6D46A5AA31}|SchoolAdministration.csproj|solutionrelative:domain\\course\\validators\\coursevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 237,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CoursesModule.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Main\\AppBootstrapper\\CoursesModule\\CoursesModule.cs",
+              "RelativeDocumentMoniker": "Main\\AppBootstrapper\\CoursesModule\\CoursesModule.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Main\\AppBootstrapper\\CoursesModule\\CoursesModule.cs",
+              "RelativeToolTip": "Main\\AppBootstrapper\\CoursesModule\\CoursesModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T20:43:05.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\Controllers\\Course\\CourseController.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Controllers\\Course\\CourseController.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\Controllers\\Course\\CourseController.cs",
+              "RelativeToolTip": "ConsoleApp\\Controllers\\Course\\CourseController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T20:34:23.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Application\\Services\\Course\\CourseService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Course\\CourseService.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Application\\Services\\Course\\CourseService.cs",
+              "RelativeToolTip": "Application\\Services\\Course\\CourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T18:15:29.362Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 237,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CourseValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Course\\Validators\\CourseValidator.cs",
+              "RelativeDocumentMoniker": "Domain\\Course\\Validators\\CourseValidator.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\Domain\\Course\\Validators\\CourseValidator.cs",
+              "RelativeToolTip": "Domain\\Course\\Validators\\CourseValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T20:33:58.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CoursesPrinter.cs",
+              "DocumentMoniker": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\Printers\\CoursePrinter\\CoursesPrinter.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Printers\\CoursePrinter\\CoursesPrinter.cs",
+              "ToolTip": "C:\\Users\\ilyla\\source\\repos\\SchoolAdministration\\ConsoleApp\\Printers\\CoursePrinter\\CoursesPrinter.cs",
+              "RelativeToolTip": "ConsoleApp\\Printers\\CoursePrinter\\CoursesPrinter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T18:20:39.473Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

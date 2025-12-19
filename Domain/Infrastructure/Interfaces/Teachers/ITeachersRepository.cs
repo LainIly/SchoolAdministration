@@ -9,5 +9,6 @@ namespace SchoolAdministration.Domain.Infrastructure.Interfaces.Teachers
         IReadOnlyList<TE.Teacher> GetAll();
         void Update (TE.Teacher teacher);
         bool Delete(int id);
+        bool Exists(int id);
     }
 }
