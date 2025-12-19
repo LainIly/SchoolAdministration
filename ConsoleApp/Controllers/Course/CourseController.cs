@@ -1,4 +1,5 @@
-﻿using SchoolAdministration.Application.Interfaces;
+﻿using Microsoft.VisualBasic;
+using SchoolAdministration.Application.Interfaces;
 using SchoolAdministration.Application.Interfaces.Course;
 using SchoolAdministration.Application.Interfaces.Teacher;
 using SchoolAdministration.ConsoleApp.InputHandler.Course;
@@ -104,6 +105,7 @@ namespace SchoolAdministration.ConsoleApp.Controllers.Course
         public void GetAllCourses ()
         {
             var courses = _courseService.GetAll();
+            // var teachers = _teacherService.GetAll();
             
             if (courses.Count == 0)
             {
@@ -111,9 +113,10 @@ namespace SchoolAdministration.ConsoleApp.Controllers.Course
                 return;
             }
 
-            foreach (var c in courses)
+            foreach(var course in courses)
             {
-                //CoursesPrinter.PrintCourse(c);
+                var teacher = _teacherService.GetById(course.TeacherId);
+                CoursesPrinter.PrintCourse(course, teacher);
             }
         }
     }
