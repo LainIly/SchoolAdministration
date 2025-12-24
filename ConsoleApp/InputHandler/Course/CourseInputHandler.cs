@@ -28,7 +28,8 @@ namespace SchoolAdministration.ConsoleApp.InputHandler.Course
             return new CE.Course(
                 _consoleValidationHelper.ValidateCourseName(_courseValidator),
                 _consoleValidationHelper.ValidaMaxCourse(_courseValidator),
-                _consoleValidationHelper.ValidateTeacherId(_personValidator)
+                _consoleValidationHelper.ValidateTeacherId(_personValidator),
+                _consoleValidationHelper.ValidateStudentId(_personValidator)
             );
         }
 
@@ -37,7 +38,8 @@ namespace SchoolAdministration.ConsoleApp.InputHandler.Course
             return new CE.Course(
                 _consoleValidationHelper.ValidateCourseName(_courseValidator),
                 _consoleValidationHelper.ValidaMaxCourse(_courseValidator),
-                _consoleValidationHelper.ValidateTeacherId(_personValidator)
+                _consoleValidationHelper.ValidateTeacherId(_personValidator),
+                _consoleValidationHelper.ValidateStudentId(_personValidator)
             );
         }
     }

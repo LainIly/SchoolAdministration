@@ -25,7 +25,7 @@ namespace SchoolAdministration.ConsoleApp
 
             var studentsModule = new StudentsModule(studentRepository);
             var teachersModule = new TeachersModule(teacherRepository);
-            var coursesModule = new CoursesModule(courseRepository, teacherRepository);
+            var coursesModule = new CoursesModule(courseRepository, teacherRepository, studentRepository);
 
             var studentController = studentsModule.Build(notificationService);
             var teacherController = teachersModule.Build(notificationService);

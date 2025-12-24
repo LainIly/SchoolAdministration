@@ -1,4 +1,5 @@
-﻿using SchoolAdministration.Application.Interfaces;
+﻿using System.Diagnostics.Contracts;
+using SchoolAdministration.Application.Interfaces;
 using SchoolAdministration.Domain.Course.Interfaces;
 using SchoolAdministration.Domain.Person.Interfaces;
 using SchoolAdministration.Domain.Person.Validators;
@@ -266,6 +267,30 @@ namespace SchoolAdministration.ConsoleApp.InputHandler.Helper
                     return id;
                 }
                 catch (ArgumentOutOfRangeException ex) //Captura el error del validator.
+                {
+                    _notificationService.Error(ex.Message);
+                    continue;
+                }
+            }
+        }
+        public int ValidateStudentId(IPersonValidator personValidator)
+        {
+            while (true)
+            {
+                Console.Write("Id del estudiante a registrar: ");
+                string? input = Console.ReadLine();
+
+                if (!int.TryParse(input, out int id))
+                {
+                    _notificationService.Error($"Id invalida: {input}");
+                    continue;
+                }
+
+                try
+                {
+                    personValidator.ValidateIdFormat(id);
+                    return id;
+                } catch (ArgumentOutOfRangeException ex)
                 {
                     _notificationService.Error(ex.Message);
                     continue;
