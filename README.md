@@ -1,152 +1,163 @@
-# School Administration
+# Academic Management System
 
-A backend-oriented academic management system developed in C# and .NET to demonstrate software engineering principles, clean architecture practices, and object-oriented design.
+A backend-oriented academic management system developed in C# and .NET to demonstrate software engineering best practices through a clean, maintainable, and scalable architecture.
 
-The project was built with a strong focus on maintainability, separation of concerns, and scalability rather than simply implementing CRUD operations.
+Rather than focusing solely on implementing application features, this project emphasizes software design, separation of concerns, and long-term maintainability by applying principles commonly used in enterprise applications.
 
 ---
 
 ## Overview
 
-This application manages the core academic processes of an educational institution, including students, teachers, courses, enrollments, and academic relationships.
+The system manages the core academic processes of an educational institution, including students, teachers, courses, and enrollments.
 
-The main objective of this project is to demonstrate how enterprise applications can be designed using software engineering best practices.
-
----
-
-## Architecture
-
-The solution follows a layered architecture that separates business logic from data access and presentation.
-
-```
-Presentation
-        │
-Services
-        │
-Repositories
-        │
-Domain
-```
-
-This separation allows each layer to evolve independently while reducing coupling between components.
+It was designed to showcase how a backend application can be structured using modern software engineering practices, with a strong emphasis on code quality, modularity, and extensibility.
 
 ---
 
-## Software Engineering Principles
-
-The project was designed following industry best practices, including:
-
-- SOLID Principles
-- Repository Pattern
-- Dependency Injection
-- Separation of Concerns
-- Object-Oriented Programming
-- Layered Architecture
-- Encapsulation
-- Interface-Based Design
-
----
-
-## Features
+## Key Features
 
 - Student Management
 - Teacher Management
 - Course Management
 - Enrollment Management
-- Academic Relationships
 - Business Rule Validation
-- Entity Validation
+- Domain Validation
 - Repository Abstraction
+- Layered Architecture
+
+---
+
+## Software Engineering Principles
+
+This project was built following industry best practices, including:
+
+- SOLID Principles
+- Repository Pattern
+- Object-Oriented Programming (OOP)
+- Separation of Concerns
+- Layered Architecture
+- Interface-Based Design
+- Encapsulation
+- Dependency Inversion
+
+These principles help create software that is easier to maintain, extend, and evolve over time.
+
+---
+
+## Architecture
+
+The application follows a layered architecture where each component has a single responsibility.
+
+```
+Presentation
+      │
+      ▼
+ Controllers
+      │
+      ▼
+  Services
+      │
+      ▼
+Repositories
+      │
+      ▼
+   Domain
+```
+
+This separation reduces coupling, improves maintainability, and keeps business logic isolated from infrastructure concerns.
 
 ---
 
 ## Technologies
 
-### Language
-
-- C#
-
-### Framework
-
-- .NET
-
-### Architecture
-
-- Repository Pattern
-- Layered Architecture
-- SOLID Principles
+| Category | Technologies |
+|----------|--------------|
+| Language | C# |
+| Framework | .NET |
+| Architecture | Layered Architecture, Repository Pattern |
+| Design | SOLID Principles, Object-Oriented Programming |
 
 ---
 
 ## Project Structure
 
 ```
-Application
+AcademicManagementSystem
 │
-├── Controllers
-├── Services
-├── Interfaces
-├── Validators
-├── Repositories
-├── Entities
+├── Application
+│   ├── Controllers
+│   ├── Services
+│   ├── Interfaces
+│   ├── Validators
+│   ├── Repositories
+│   └── Entities
+│
 └── ConsoleApp
 ```
 
-Each layer has a single responsibility, promoting maintainability and future scalability.
+Each layer has a clearly defined responsibility, promoting clean code and reducing dependencies between components.
 
 ---
 
 ## Design Decisions
 
-Several design decisions were intentionally made to improve software quality.
+Several architectural decisions were intentionally made to improve software quality.
 
 ### Repository Pattern
 
-Repositories abstract data access from business logic, making the application easier to extend and test.
+Repositories abstract data access from business logic, allowing the application to remain independent of the persistence mechanism.
 
 ### Service Layer
 
-Business rules are implemented inside services rather than controllers or repositories, ensuring clear responsibility boundaries.
+Business logic is centralized within services, while controllers remain responsible only for coordinating application flow.
 
-### Validation
+### Interface-Based Design
 
-Validation logic is isolated from domain entities, making rules reusable and easier to maintain.
+Interfaces reduce coupling between components, making the system easier to extend, maintain, and test.
 
 ### Encapsulation
 
-Entities protect their internal state by exposing controlled operations instead of unrestricted property modifications.
+Entities protect their internal state by exposing controlled operations instead of allowing unrestricted modifications.
 
----
+### Validation
 
-## Future Improvements
-
-Possible future enhancements include:
-
-- Entity Framework Core integration
-- SQL Server persistence
-- ASP.NET Core Web API
-- Authentication and Authorization
-- Unit Testing
-- Docker support
-- Azure deployment
+Validation responsibilities are isolated from domain entities, improving code organization and maintainability.
 
 ---
 
 ## Learning Objectives
 
-This project was developed to strengthen knowledge in:
+This project allowed me to strengthen my knowledge in:
 
+- Backend Development with .NET
 - Software Architecture
 - SOLID Principles
-- Object-Oriented Design
 - Design Patterns
+- Object-Oriented Design
 - Clean Code
-- Backend Development with .NET
+- Domain Modeling
+
+---
+
+## Future Improvements
+
+The architecture was intentionally designed to support future enhancements, including:
+
+- ASP.NET Core Web API
+- Entity Framework Core
+- SQL Server persistence
+- Authentication & Authorization
+- Unit Testing
+- Docker
+- Microsoft Azure deployment
 
 ---
 
 ## Author
 
-Jaime Andrés Guacarapare Sotelo
+**Jaime Andrés Guacarapare Sotelo**
 
-Software Engineer focused on backend development with .NET.
+Software Engineer focused on backend development with .NET and software architecture.
+
+LinkedIn:
+https://www.linkedin.com/in/andresg2a/
